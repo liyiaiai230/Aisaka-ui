@@ -1,17 +1,29 @@
-*{marigin:0; padding:0; box-sizing: border-box;}
-:root{
+* {
+    marigin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
     --button-height: 32px;
     --font-size: 14px;
     --button-background: white;
     --button-active-background: #eee;
     --border-radius: 4px;
-    --color:#999;
-    --border-color:#999;
-    --border-color-hover:#666;
+    --color: #999;
+    --border-color: #999;
+    --border-color-hover: #666;
 }
+
 #app {
     margin: 20px;
 }
+
 body {
     font-size: var(--font-size);
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
 }

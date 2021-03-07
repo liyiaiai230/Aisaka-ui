@@ -1,6 +1,11 @@
 <template>
   <div id="app">
-    <Button></Button>
+    <Button icon="shezhi">
+      按钮
+    </Button>
+    <Button icon="shezhi" icon-position="right">
+      按钮
+    </Button>
   </div>
 
 </template>
