@@ -6,14 +6,15 @@
 
 <script>
 export default {
+  name: 'AisakaICon',
   props: ['name']
 }
+import './svg'
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .a-icon {
   width: 1em;
   height: 1em;
 }
-
 </style>

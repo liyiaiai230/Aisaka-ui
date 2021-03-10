@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0a74991-ea24-4863-a08a-fda65efb1ee1" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/aisaka/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/src/input.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/src/svg.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aisaka/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aisaka/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aisaka/src/button-group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/button-group.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/src/icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/icon.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1pNQ7IPfWrFLGOgI6ANtmnRVjSM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,6 +51,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aisaka/src" />
       <recent name="$PROJECT_DIR$/aisaka" />
     </key>
   </component>
@@ -56,7 +67,8 @@
       <workItem from="1615084982232" duration="20949000" />
       <workItem from="1615170363426" duration="11195000" />
       <workItem from="1615264952586" duration="4476000" />
-      <workItem from="1615273295297" duration="3734000" />
+      <workItem from="1615273295297" duration="11441000" />
+      <workItem from="1615345501295" duration="9483000" />
     </task>
     <task id="LOCAL-00001" summary="填写 icon 和 iconPosition 属性">
       <created>1615100151741</created>
@@ -79,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615269932067</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更新 README.md">
+      <created>1615278831450</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615278831450</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,7 +120,8 @@
     <MESSAGE value="填写 icon 和 iconPosition 属性" />
     <MESSAGE value="创建 button group" />
     <MESSAGE value="检测子元素是不是 button" />
-    <option name="LAST_COMMIT_MESSAGE" value="检测子元素是不是 button" />
+    <MESSAGE value="更新 README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新 README.md" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

@@ -11,6 +11,7 @@
 </template>
 <script>
 export default {
+  name: 'AisakaButton',
   props: {
     icon: {},
     loading: {
@@ -28,7 +29,8 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -37,6 +39,7 @@ export default {
     transform: rotate(360deg);
   }
 }
+
 .g-button {
   font-size: var(--font-size);
   height: var(--button-height);
@@ -48,6 +51,7 @@ export default {
   justify-content: center;
   align-items: center;
   vertical-align: middle;
+  margin-right: 5px;
 
   &:hover {
     border-color: var(--border-color-hover);
@@ -88,5 +92,6 @@ export default {
   .jiazai {
     animation: spin 1s infinite linear;
   }
+
 }
 </style>

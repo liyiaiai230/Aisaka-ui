@@ -6,6 +6,7 @@
 </template>
 <script>
 export default {
+  name: 'AisakaButtonGroup',
   mounted() {
     for (let node of this.$el.children) {
       let name = node.nodeName.toLowerCase()
@@ -14,19 +15,21 @@ export default {
       }
     }
   },
-  name: 'ButtonGroup'
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .g-button-group {
   display: inline-flex;
   vertical-align: middle;
 
+
   > .g-button {
     border-radius: 0;
+    margin: auto;
 
     &:not(:first-child) {
       margin-left: -1px;
+
     }
 
 
