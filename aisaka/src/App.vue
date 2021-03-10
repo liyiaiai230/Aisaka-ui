@@ -1,5 +1,30 @@
 <template>
   <div id="app">
+    <a-row>
+      <a-col>1</a-col>
+      <a-col>2</a-col>
+    </a-row>
+    <a-row>
+      <a-col>1</a-col>
+      <a-col>2</a-col>
+      <a-col>3</a-col>
+    </a-row>
+    <a-row>
+      <a-col>1</a-col>
+      <a-col>2</a-col>
+      <a-col>3</a-col>
+      <a-col>4</a-col>
+    </a-row>
+    <a-row>
+      <a-col span="2">1</a-col>
+      <a-col span="22">11</a-col>
+    </a-row>
+    <a-row>
+      <a-col span="4">1</a-col>
+      <a-col span="20">11</a-col>
+    </a-row>
+
+    <hr>
     <div class="box">
       <a-input value="狸一" disabled></a-input>
       <a-input value="狸二" readonly></a-input>
