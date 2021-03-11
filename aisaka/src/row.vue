@@ -1,5 +1,5 @@
 <template>
-  <div class="row" :style="{marginLeft: -gutter/2+'px', marginRight:-gutter/2+'px'}">
+  <div class="row" :style="rowStyle">
     <slot></slot>
   </div>
 
@@ -12,12 +12,13 @@ export default {
       type: [Number, String]
     }
   },
-  created() {
-    console.log('row created')
+  computed: {
+    rowStyle() {
+      let {gutter} = this
+      return {marginLeft: -gutter / 2 + 'px', marginRight: -gutter / 2 + 'px'}
+    }
   },
   mounted() {
-    console.log('row mounted')
-    console.log(this.$children)
     this.$children.forEach((vm) => {
       vm.gutter = this.gutter
     })
