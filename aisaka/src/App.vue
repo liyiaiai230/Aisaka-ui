@@ -1,28 +1,45 @@
 <template>
   <div id="app">
-    <a-row>
-      <a-col>1</a-col>
-      <a-col>2</a-col>
-    </a-row>
-    <a-row>
-      <a-col>1</a-col>
-      <a-col>2</a-col>
-      <a-col>3</a-col>
-    </a-row>
-    <a-row>
-      <a-col>1</a-col>
-      <a-col>2</a-col>
-      <a-col>3</a-col>
-      <a-col>4</a-col>
-    </a-row>
-    <a-row>
-      <a-col span="2">1</a-col>
-      <a-col span="22">11</a-col>
-    </a-row>
-    <a-row>
-      <a-col span="4">1</a-col>
-      <a-col span="20">11</a-col>
-    </a-row>
+    <div style="border:1px solid black">
+
+      <a-row gutter="20">
+        <a-col>1</a-col>
+        <a-col>2</a-col>
+      </a-row>
+      <a-row gutter="20">
+        <a-col>1</a-col>
+        <a-col>2</a-col>
+        <a-col>3</a-col>
+      </a-row>
+      <a-row gutter="20">
+        <a-col>1</a-col>
+        <a-col>2</a-col>
+        <a-col>3</a-col>
+        <a-col>4</a-col>
+      </a-row>
+      <a-row gutter="20">
+        <a-col span="2">1</a-col>
+        <a-col span="20" offset="2">11</a-col>
+      </a-row>
+      <a-row gutter="20">
+        <a-col span="4">1</a-col>
+        <a-col span="20">11</a-col>
+      </a-row>
+      <a-row gutter="20">
+        <a-col span="4">1</a-col>
+        <a-col span="18" offset="2">11</a-col>
+      </a-row>
+      <a-row gutter="20">
+        <a-col span="4">1</a-col>
+        <a-col span="8" offset="6">11</a-col>
+        <a-col span="8" offset="2">11</a-col>
+      </a-row>
+      <a-row gutter="20">
+        <a-col span="4">1</a-col>
+        <a-col span="8" offset="6">11</a-col>
+        <a-col span="8" offset="2">11</a-col>
+      </a-row>
+    </div>
 
     <hr>
     <div class="box">
