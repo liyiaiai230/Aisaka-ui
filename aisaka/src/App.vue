@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-<button @click="showToast">出来吧！Toast</button>
+    <button @click="showToast1">出来吧! 狗屎郑爽</button>
+    <button @click="showToast2">出来吧！吃屎郑爽</button>
+    <button @click="showToast3">出来吧！垃圾郑爽</button>
   </div>
-
 </template>
 
 <script>
@@ -33,16 +34,26 @@ export default {
   },
 
   methods: {
-    showToast() {
-      this.$toast('我真帅', {
-        position: 'middle',
+    showToast1() {
+      this.showToast('top')
+    },
+    showToast2() {
+      this.showToast('middle')
+    },
+    showToast3() {
+      this.showToast('bottom')
+    },
+    showToast(position) {
+      this.$toast(`世界上谁最傻逼 ${parseInt(Math.random() * 100)}。'郑爽是傻逼'`, {
+        position,
         enableHtml: false,
         closeButton: {
           text: '确实',
           callback() {
-            console.log('经过证实是个帅比')
+            console.log('经过证实郑爽确实是傻逼')
           }
-        }
+        },
+        autoClose: false,
       })
     }
   }
