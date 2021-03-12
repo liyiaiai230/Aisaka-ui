@@ -5,7 +5,8 @@
 </template>
 <style lang="scss" scoped>
 .header {
-
+  background: #999;
+  height: 100px;
 }
 
 </style>

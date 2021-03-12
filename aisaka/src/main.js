@@ -9,6 +9,8 @@ import Header from './header'
 import Sider from './sider'
 import Content from './content'
 import Footer from './footer'
+import Toast from './toast'
+import pligin from './plugin'
 
 
 Vue.config.productionTip = false
@@ -22,6 +24,8 @@ Vue.component('a-header', Header)
 Vue.component('a-sider', Sider)
 Vue.component('a-content', Content)
 Vue.component('a-footer', Footer)
+Vue.component('a-toast', Toast)
+Vue.use(pligin)
 
 
 // Vue.component('g-button-group', ButtonGroup)

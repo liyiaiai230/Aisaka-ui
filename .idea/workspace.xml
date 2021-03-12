@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="项目文件" />
+    <option name="SHOW_STRUCTURE" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b0a74991-ea24-4863-a08a-fda65efb1ee1" name="默认的" comment="row 和 col 的雏形完成">
-      <change afterPath="$PROJECT_DIR$/aisaka/src/content.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/src/footer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/src/header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/src/layout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/src/sider.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/src/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/src/toast.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aisaka/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/src/footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/src/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/src/layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/layout.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aisaka/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/src/sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/sider.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aisaka/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +74,9 @@
       <workItem from="1615273295297" duration="11441000" />
       <workItem from="1615345501295" duration="20109000" />
       <workItem from="1615431385656" duration="21057000" />
-      <workItem from="1615515377223" duration="2749000" />
+      <workItem from="1615515377223" duration="5927000" />
+      <workItem from="1615522696609" duration="465000" />
+      <workItem from="1615523165751" duration="12296000" />
     </task>
     <task id="LOCAL-00001" summary="填写 icon 和 iconPosition 属性">
       <created>1615100151741</created>
@@ -146,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615472205826</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="完成 sider foot content header 的基本功能">
+      <created>1615519474522</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615519474523</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

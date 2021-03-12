@@ -1,4 +1,5 @@
 * {
+    marigin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -16,8 +17,6 @@
 
 }
 
-#app {
-}
 
 body {
     font-size: var(--font-size);
@@ -25,6 +24,25 @@ body {
 }
 
 .demo {
-    border: 1px solid #666;
     min-height: 100px;
+}
+
+.sider {
+    background: #333;
+    width: 200px;
+}
+
+.sider.fade-enter, .sider.fade-leave-to {
+    margin-left: -150px;
+}
+
+.footer {
+    background: #ccc;
+    height: 50px;
+}
+
+.header {
+    background: #999;
+    height: 100px;
+
 }
