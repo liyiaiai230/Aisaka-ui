@@ -1,10 +1,13 @@
 <template>
   <div id="app">
-    <a-row>
-      <a-col span="23" offset="1" :narrow-pc="{span:12, offset:12}">
-        <div class="demo"></div>
-      </a-col>
-    </a-row>
+    <a-layout style="height: 100vh">
+      <a-sider class="demo">sider</a-sider>
+      <a-layout>
+        <a-header class="demo">header</a-header>
+        <a-content class="demo">content</a-content>
+        <a-footer class="demo">footer</a-footer>
+      </a-layout>
+    </a-layout>
   </div>
 
 </template>

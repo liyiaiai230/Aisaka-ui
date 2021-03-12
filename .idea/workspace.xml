@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0a74991-ea24-4863-a08a-fda65efb1ee1" name="默认的" comment="row 和 col 的雏形完成">
+      <change afterPath="$PROJECT_DIR$/aisaka/src/content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/src/footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/src/header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/src/layout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/src/sider.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aisaka/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aisaka/src/col.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/col.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aisaka/src/row.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/row.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aisaka/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +21,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pNQ7IPfWrFLGOgI6ANtmnRVjSM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,8 +47,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/aisaka/tests" />
       <recent name="$PROJECT_DIR$/aisaka/src" />
+      <recent name="$PROJECT_DIR$/aisaka/tests" />
       <recent name="$PROJECT_DIR$/aisaka" />
     </key>
   </component>
@@ -60,7 +66,8 @@
       <workItem from="1615264952586" duration="4476000" />
       <workItem from="1615273295297" duration="11441000" />
       <workItem from="1615345501295" duration="20109000" />
-      <workItem from="1615431385656" duration="19831000" />
+      <workItem from="1615431385656" duration="21057000" />
+      <workItem from="1615515377223" duration="2749000" />
     </task>
     <task id="LOCAL-00001" summary="填写 icon 和 iconPosition 属性">
       <created>1615100151741</created>
@@ -132,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615443613281</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="重构页面布局代码">
+      <created>1615472205825</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615472205826</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +175,9 @@
     <MESSAGE value="基本实现 row 和 col 的功能" />
     <MESSAGE value="重构 row 和 col" />
     <MESSAGE value="添加 row 的 align=left/right/center 属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 row 的 align=left/right/center 属性" />
+    <MESSAGE value="重构页面布局代码" />
+    <MESSAGE value="完成 sider foot content header 的基本功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 sider foot content header 的基本功能" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

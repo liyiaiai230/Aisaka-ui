@@ -4,6 +4,12 @@ import Icon from "./icon";
 import Input from "./input"
 import Row from './row'
 import Col from './col'
+import Layout from './layout'
+import Header from './header'
+import Sider from './sider'
+import Content from './content'
+import Footer from './footer'
+
 
 Vue.config.productionTip = false
 
@@ -11,6 +17,11 @@ Vue.component('a-icon', Icon)
 Vue.component('a-input', Input)
 Vue.component('a-row', Row)
 Vue.component('a-col', Col)
+Vue.component('a-layout', Layout)
+Vue.component('a-header', Header)
+Vue.component('a-sider', Sider)
+Vue.component('a-content', Content)
+Vue.component('a-footer', Footer)
 
 
 // Vue.component('g-button-group', ButtonGroup)
