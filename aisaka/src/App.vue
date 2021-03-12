@@ -35,7 +35,14 @@ export default {
   methods: {
     showToast() {
       this.$toast('我真帅', {
-        enableHtml: false
+        position: 'middle',
+        enableHtml: false,
+        closeButton: {
+          text: '确实',
+          callback() {
+            console.log('经过证实是个帅比')
+          }
+        }
       })
     }
   }
