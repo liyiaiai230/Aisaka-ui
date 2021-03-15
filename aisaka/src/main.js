@@ -11,6 +11,11 @@ import Content from './content'
 import Footer from './footer'
 import Toast from './toast'
 import pligin from './plugin'
+import Tabs from "./tabs"
+import TabsBody from './tabs-body'
+import TabsItem from './tabs-item'
+import TabsPane from './tabs-pane'
+import TabsHead from './tabs-head'
 
 
 Vue.config.productionTip = false
@@ -25,6 +30,12 @@ Vue.component('a-sider', Sider)
 Vue.component('a-content', Content)
 Vue.component('a-footer', Footer)
 Vue.component('a-toast', Toast)
+Vue.component('a-tabs', Tabs)
+Vue.component('a-tabs-head', TabsHead)
+Vue.component('a-tabs-body', TabsBody)
+Vue.component('a-tabs-item', TabsItem)
+Vue.component('a-tabs-pane', TabsPane)
+
 Vue.use(pligin)
 
 

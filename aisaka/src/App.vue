@@ -1,11 +1,26 @@
 <template>
   <div id="app">
-    <button @click="showToast1">出来吧! 狗屎郑爽</button>
-    <button @click="showToast2">出来吧！吃屎郑爽</button>
-    <button @click="showToast3">出来吧！垃圾郑爽</button>
+    <a-tabs :selected.sync="selectedTab" @update:selected="yyy">
+      <a-tabs-head>
+        <template slot="actions">
+          <button>设置</button>
+        </template>
+        <a-tabs-item name="woman">
+          <a-icon name="setting"></a-icon>
+          美女
+        </a-tabs-item>
+        <a-tabs-item name="finance" disabled>财经</a-tabs-item>
+        <a-tabs-item name="sports">体育</a-tabs-item>
+      </a-tabs-head>
+      <a-tabs-body>
+        <a-tabs-pane name="woman">美女相关</a-tabs-pane>
+        <a-tabs-pane name="finance">财经相关</a-tabs-pane>
+        <a-tabs-pane name="sports">体育相关</a-tabs-pane>
+      </a-tabs-body>
+    </a-tabs>
   </div>
-</template>
 
+</template>
 <script>
 // import Button from './button'
 import ButtonGroup from './button-group';
@@ -16,24 +31,25 @@ Vue.component('g-button-group', ButtonGroup)
 
 
 export default {
+  name: 'App',
   data: () => {
     return {
-      loading1: false,
-      loading2: true,
-      loading3: false,
-      message: 'hi',
+      selectedTab: 'sports'
+      // loading1: false,
+      // loading2:true,
+      // loading3:false,
+      // message:'hi'
     }
-  },
-  name: 'App',
-  components: {
-    // ButtonGroup,
-    // Button,
   },
   created() {
 
   },
 
   methods: {
+    yyy(data) {
+      console.log('yyy')
+      console.log(data)
+    },
     showToast1() {
       this.showToast('top')
     },
@@ -58,6 +74,16 @@ export default {
     }
   }
 }
+// components:{
+//   Button
+//  },
+// methods:{
+//   inputChange(e){
+//     console.log(e.target.value)
+//   }
+// }
+
+
 </script>
 
 <style lang="scss">
