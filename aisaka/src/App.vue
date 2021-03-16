@@ -1,31 +1,70 @@
 <template>
-  <div id="app">
-    <a-tabs :selected.sync="selectedTab" @update:selected="yyy">
-      <a-tabs-head>
-        <template slot="actions">
-          <button>设置</button>
-        </template>
-        <a-tabs-item name="woman">
-          <a-icon name="setting"></a-icon>
-          美女
-        </a-tabs-item>
-        <a-tabs-item name="finance" disabled>财经</a-tabs-item>
-        <a-tabs-item name="sports">体育</a-tabs-item>
-      </a-tabs-head>
-      <a-tabs-body>
-        <a-tabs-pane name="woman">美女相关</a-tabs-pane>
-        <a-tabs-pane name="finance">财经相关</a-tabs-pane>
-        <a-tabs-pane name="sports">体育相关</a-tabs-pane>
-      </a-tabs-body>
-    </a-tabs>
-  </div>
+  <div id="app" style="padding-left: 100px;">
 
+    <div style="overflow: hidden; padding-top: 150px; padding-bottom: 40px;">
+      <a-popover position="bottom">
+        <template slot="content">
+          <div>popover内容popover内容popover内容popover内容</div>
+          <div>popover内容popover内容popover内容popover内容</div>
+          <div>www<a href="http:qq.com">看新闻</a>内容</div>
+        </template>
+        <Button>点我</Button>
+      </a-popover>
+      <a-popover position="top">
+        <template slot="content">
+          <div>popover内容</div>
+        </template>
+        <Button>点我</Button>
+      </a-popover>
+      <a-popover position="left">
+        <template slot="content">
+          <div>popover内容</div>
+        </template>
+        <Button>点我</Button>
+      </a-popover>
+      <a-popover position="right">
+        <template slot="content">
+          <div>popover</div>
+        </template>
+        <Button>点我</Button>
+      </a-popover>
+
+    </div>
+
+    <div style="overflow: hidden; padding-bottom: 150px;">
+      <a-popover position="bottom" tirgger="hover">
+        <template slot="content">
+          <div>popover内容popover内容popover内容popover内容</div>
+          <div>popover内容popover内容popover内容popover内容</div>
+        </template>
+        <Button>点我</Button>
+      </a-popover>
+      <a-popover position="top" tirgger="hover">
+        <template slot="content">
+          <div>popover内容</div>
+        </template>
+        <Button>点我</Button>
+      </a-popover>
+      <a-popover position="left" tirgger="hover">
+        <template slot="content">
+          <div>popover内容</div>
+        </template>
+        <Button>点我</Button>
+      </a-popover>
+      <a-popover position="right" tirgger="hover">
+        <template slot="content">
+          <div>popover <a href="http:qq.com">看新闻</a>内容</div>
+        </template>
+        <Button>点我</Button>
+      </a-popover>
+
+    </div>
+  </div>
 </template>
 <script>
-// import Button from './button'
 import ButtonGroup from './button-group';
 import Vue from "vue";
-
+import Button from './button'
 
 Vue.component('g-button-group', ButtonGroup)
 
@@ -72,11 +111,12 @@ export default {
         autoClose: false,
       })
     }
-  }
+  },
+  components: {
+    Button
+  },
 }
-// components:{
-//   Button
-//  },
+
 // methods:{
 //   inputChange(e){
 //     console.log(e.target.value)
