@@ -17,6 +17,8 @@ import TabsItem from './tabs-item'
 import TabsPane from './tabs-pane'
 import TabsHead from './tabs-head'
 import Popover from './popover'
+import Collapse from './collapse'
+import CollapseItem from './collapse-item'
 
 
 Vue.config.productionTip = false
@@ -37,6 +39,8 @@ Vue.component('a-tabs-body', TabsBody)
 Vue.component('a-tabs-item', TabsItem)
 Vue.component('a-tabs-pane', TabsPane)
 Vue.component('a-popover', Popover)
+Vue.component('a-collapse', Collapse)
+Vue.component('a-collapse-item', CollapseItem)
 
 Vue.use(pligin)
 

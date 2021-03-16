@@ -1,79 +1,27 @@
 <template>
-  <div id="app" style="padding-left: 100px;">
-
-    <div style="overflow: hidden; padding-top: 150px; padding-bottom: 40px;">
-      <a-popover position="bottom">
-        <template slot="content">
-          <div>郑爽孤儿</div>
-          <div>郑爽没妈</div>
-          <div>www<a href="http://qq.com">看新闻</a>内容</div>
-        </template>
-        <Button>点我</Button>
-      </a-popover>
-      <a-popover position="top">
-        <template slot="content">
-          <div>郑爽爱吃屎</div>
-        </template>
-        <Button>点我</Button>
-      </a-popover>
-      <a-popover position="left">
-        <template slot="content">
-          <div>郑爽天天吃狗屎</div>
-        </template>
-        <Button>点我</Button>
-      </a-popover>
-      <a-popover position="right">
-        <template slot="content">
-          <div>popover</div>
-        </template>
-        <Button>点我</Button>
-      </a-popover>
-
-    </div>
-
-    <div style="overflow: hidden; padding-bottom: 150px;">
-      <a-popover position="bottom" tirgger="hover">
-        <template slot="content">
-          <div>郑爽天天吃狗屎郑爽天天吃狗屎郑爽天天吃狗屎郑爽天天吃狗屎</div>
-          <div>郑爽天天吃狗屎郑爽天天吃狗屎郑爽天天吃狗屎郑爽天天吃狗屎</div>
-        </template>
-        <Button>点我</Button>
-      </a-popover>
-      <a-popover position="top" tirgger="hover">
-        <template slot="content">
-          <div>popover内容</div>
-        </template>
-        <Button>点我</Button>
-      </a-popover>
-      <a-popover position="left" tirgger="hover">
-        <template slot="content">
-          <div>popover内容</div>
-        </template>
-        <Button>点我</Button>
-      </a-popover>
-      <a-popover position="right" tirgger="hover">
-        <template slot="content">
-          <div>popover <a href="http:qq.com">看新闻</a>内容</div>
-        </template>
-        <Button>点我</Button>
-      </a-popover>
-
-    </div>
+  <div id="app" style="padding:100px;">
+    <a-collapse :selected.sync="selectedTab" single>
+      <a-collapse-item title="标题一" name="1">内容1</a-collapse-item>
+      <a-collapse-item title="标题二" name="2">内容2</a-collapse-item>
+      <a-collapse-item title="标题三" name="3">内容3</a-collapse-item>
+    </a-collapse>
+    {{ selectedTab }}
   </div>
 </template>
 <script>
 import ButtonGroup from './button-group';
 import Vue from "vue";
-import Button from './button'
+// import Button from './button'
 
 Vue.component('g-button-group', ButtonGroup)
 
 
 export default {
+
   name: 'App',
   data: () => {
     return {
-      selectedTab: 'sports'
+      selectedTab: ['1', '2']
       // loading1: false,
       // loading2:true,
       // loading3:false,
@@ -113,7 +61,7 @@ export default {
     }
   },
   components: {
-    Button
+    // Button
   },
 }
 
