@@ -4,21 +4,21 @@
     <div style="overflow: hidden; padding-top: 150px; padding-bottom: 40px;">
       <a-popover position="bottom">
         <template slot="content">
-          <div>popover内容popover内容popover内容popover内容</div>
-          <div>popover内容popover内容popover内容popover内容</div>
-          <div>www<a href="http:qq.com">看新闻</a>内容</div>
+          <div>郑爽孤儿</div>
+          <div>郑爽没妈</div>
+          <div>www<a href="http://qq.com">看新闻</a>内容</div>
         </template>
         <Button>点我</Button>
       </a-popover>
       <a-popover position="top">
         <template slot="content">
-          <div>popover内容</div>
+          <div>郑爽爱吃屎</div>
         </template>
         <Button>点我</Button>
       </a-popover>
       <a-popover position="left">
         <template slot="content">
-          <div>popover内容</div>
+          <div>郑爽天天吃狗屎</div>
         </template>
         <Button>点我</Button>
       </a-popover>
@@ -34,8 +34,8 @@
     <div style="overflow: hidden; padding-bottom: 150px;">
       <a-popover position="bottom" tirgger="hover">
         <template slot="content">
-          <div>popover内容popover内容popover内容popover内容</div>
-          <div>popover内容popover内容popover内容popover内容</div>
+          <div>郑爽天天吃狗屎郑爽天天吃狗屎郑爽天天吃狗屎郑爽天天吃狗屎</div>
+          <div>郑爽天天吃狗屎郑爽天天吃狗屎郑爽天天吃狗屎郑爽天天吃狗屎</div>
         </template>
         <Button>点我</Button>
       </a-popover>
