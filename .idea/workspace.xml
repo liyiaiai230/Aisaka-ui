@@ -10,15 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0a74991-ea24-4863-a08a-fda65efb1ee1" name="默认的" comment="完成 手风琴">
-      <change afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/button-demos.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/docs/components/button.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/docs/get-started/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/docs/install/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/docs/components/grid.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/docs/components/input.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/docs/components/layout.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/docs/components/popover.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/docs/components/tabs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/docs/components/toast.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aisaka/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aisaka/src/icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/icon.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aisaka/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/button-demos.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/button-demos.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/aisaka" />
   </component>
   <component name="ProjectId" id="1pNQ7IPfWrFLGOgI6ANtmnRVjSM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
