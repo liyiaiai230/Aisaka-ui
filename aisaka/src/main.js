@@ -19,6 +19,8 @@ import TabsHead from './tabs-head'
 import Popover from './popover'
 import Collapse from './collapse'
 import CollapseItem from './collapse-item'
+import ButtonGroup from './button-group';
+import Button from './button'
 
 
 Vue.config.productionTip = false
@@ -41,11 +43,12 @@ Vue.component('a-tabs-pane', TabsPane)
 Vue.component('a-popover', Popover)
 Vue.component('a-collapse', Collapse)
 Vue.component('a-collapse-item', CollapseItem)
+Vue.component('a-button', Button)
 
 Vue.use(pligin)
 
 
-// Vue.component('g-button-group', ButtonGroup)
+Vue.component('g-button-group', ButtonGroup)
 new Vue({
     render: h => h(App),
 

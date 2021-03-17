@@ -6,8 +6,12 @@
 
 <script>
 export default {
-  name: 'AisakaICon',
-  props: ['name']
+  name: 'AisakaIcon',
+  props: ['name'],
+  mounted() {
+    console.log(this.name)
+  },
+  methods: {}
 }
 import './svg'
 </script>

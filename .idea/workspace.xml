@@ -9,13 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a74991-ea24-4863-a08a-fda65efb1ee1" name="默认的" comment="row 和 col 的雏形完成">
-      <change afterPath="$PROJECT_DIR$/aisaka/src/collapse-item.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/src/collapse.vue" afterDir="false" />
+    <list default="true" id="b0a74991-ea24-4863-a08a-fda65efb1ee1" name="默认的" comment="完成 手风琴">
+      <change afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/button-demos.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/docs/components/button.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/docs/get-started/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/docs/install/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aisaka/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aisaka/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aisaka/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/src/icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/icon.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aisaka/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,9 +34,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1pNQ7IPfWrFLGOgI6ANtmnRVjSM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -63,9 +62,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aisaka" />
+      <recent name="$PROJECT_DIR$/aisaka/docs" />
+      <recent name="$PROJECT_DIR$/aisaka/docs/install" />
       <recent name="$PROJECT_DIR$/aisaka/src" />
       <recent name="$PROJECT_DIR$/aisaka/tests" />
-      <recent name="$PROJECT_DIR$/aisaka" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -92,7 +93,11 @@
       <workItem from="1615805781255" duration="7851000" />
       <workItem from="1615813696512" duration="2741000" />
       <workItem from="1615816496759" duration="594000" />
-      <workItem from="1615867826946" duration="15656000" />
+      <workItem from="1615867826946" duration="17278000" />
+      <workItem from="1615896972888" duration="2460000" />
+      <workItem from="1615899461211" duration="5309000" />
+      <workItem from="1615909643271" duration="4622000" />
+      <workItem from="1615955015251" duration="556000" />
     </task>
     <task id="LOCAL-00001" summary="填写 icon 和 iconPosition 属性">
       <created>1615100151741</created>
@@ -220,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615881505122</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="完成 手风琴">
+      <created>1615895417156</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1615895417156</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +268,8 @@
     <MESSAGE value="优化三种动画" />
     <MESSAGE value="完成tabs 组件" />
     <MESSAGE value="完成popover组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成popover组件" />
+    <MESSAGE value="完成 手风琴" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 手风琴" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
