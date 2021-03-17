@@ -127,6 +127,8 @@ $toast-bg: rgba(0, 0, 0, 0.75);
 
   &.position-top {
     top: 0;
+    position: absolute;
+    z-index: 999999;
 
     .toast {
       border-top-left-radius: 0;

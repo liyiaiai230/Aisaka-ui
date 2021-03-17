@@ -24,7 +24,7 @@ export default {
 
 <style scoped lang="scss">
 $tabs-height: 40px;
-$blue: blue;
+$blue: red;
 $border-color: #ddd;
 .tabs-head {
   display: flex;
@@ -36,7 +36,6 @@ $border-color: #ddd;
   > .line {
     position: absolute;
     bottom: 0;
-    border-bottom: 3px solid $blue;
     transition: all 350ms;
   }
 

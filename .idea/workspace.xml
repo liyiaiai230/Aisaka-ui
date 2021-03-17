@@ -10,37 +10,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0a74991-ea24-4863-a08a-fda65efb1ee1" name="默认的" comment="完成 手风琴">
-      <change afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/button-group-demos.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/collapse-demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/grid-demo1.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/grid-demo2.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/grid-demo3.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/grid-demo4.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/grid-demo5.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/input-demos.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/layout-demos.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/popver-doms.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/tabs-demos.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/toast-demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aisaka/docs/components/collapse.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/popover-demos.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aisaka/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aisaka/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/button-demos.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/button-demos.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aisaka/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/input-demos.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/input-demos.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/popver-doms.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/toast-demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/components/toast-demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/docs/.vuepress/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aisaka/docs/components/button.md" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/docs/components/button.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/docs/components/collapse.md" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/docs/components/collapse.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aisaka/docs/components/grid.md" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/docs/components/grid.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aisaka/docs/components/input.md" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/docs/components/input.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aisaka/docs/components/layout.md" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/docs/components/layout.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aisaka/docs/components/popover.md" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/docs/components/popover.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aisaka/docs/components/tabs.md" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/docs/components/tabs.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aisaka/docs/components/toast.md" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/docs/components/toast.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aisaka/docs/get-started/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/docs/get-started/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aisaka/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/docs/install/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/docs/install/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aisaka/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aisaka/src/button-group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/button-group.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aisaka/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aisaka/src/input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/input.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aisaka/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/src/tabs-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/tabs-head.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/src/tabs-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/tabs-item.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/src/tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aisaka/src/toast.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aisaka/src/toast.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +45,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/aisaka" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1pNQ7IPfWrFLGOgI6ANtmnRVjSM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -80,6 +71,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -268,11 +260,23 @@
       <option name="project" value="LOCAL" />
       <updated>1615962560302</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="实现官网标题内容 但没引入轮子">
+      <created>1615975913455</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1615975913455</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/aisaka/src/main.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -318,7 +322,8 @@
     <MESSAGE value="完成popover组件" />
     <MESSAGE value="完成 手风琴" />
     <MESSAGE value="完成官网" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成官网" />
+    <MESSAGE value="实现官网标题内容 但没引入轮子" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现官网标题内容 但没引入轮子" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

@@ -1,5 +1,6 @@
 <template>
   <div class="tabs-item" @click="xx" :class="classes">
+
     <slot></slot>
   </div>
 </template>
@@ -30,7 +31,8 @@ export default {
   computed: {
     classes() {
       return {
-        active: this.active
+        active: this.active,
+        disabled: this.disabled
       }
     }
   },
@@ -42,14 +44,16 @@ export default {
   },
   methods: {
     xx() {
-      this.eventBus.$emit('update:selected', this.name, this)
+      if (!this.disabled){
+        this.eventBus.$emit('update:selected', this.name, this)
+      }
     }
   }
 }
 </script>
 
 <style scoped lang="scss">
-$blue: blue;
+$blue: rgba(61, 158, 255);
 .tabs-item {
   flex-shrink: 0;
   padding: 0 1em;
@@ -58,9 +62,14 @@ $blue: blue;
   display: flex;
   align-items: center;
 
+
   &.active {
     color: $blue;
     font-weight: bold;
   }
+}
+.disabled{
+  color: grey;
+  cursor: not-allowed;
 }
 </style>

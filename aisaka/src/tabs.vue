@@ -48,6 +48,6 @@ export default {
 
 <style scoped lang="scss">
 .tabs {
-
+  border-color: #4e6e8e;
 }
 </style>

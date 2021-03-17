@@ -12,8 +12,7 @@
 import ButtonGroup from './button-group';
 import Vue from "vue";
 // import Button from './button'
-
-Vue.component('g-button-group', ButtonGroup)
+Vue.component('a-button-group', ButtonGroup)
 
 
 export default {
@@ -21,11 +20,11 @@ export default {
   name: 'App',
   data: () => {
     return {
-      selectedTab: ['1', '2']
-      // loading1: false,
-      // loading2:true,
-      // loading3:false,
-      // message:'hi'
+      selectedTab: ['1', '2'],
+      loading1: false,
+      loading2:true,
+      loading3:false,
+      message:'hi'
     }
   },
   created() {
@@ -33,10 +32,10 @@ export default {
   },
 
   methods: {
-    yyy(data) {
-      console.log('yyy')
-      console.log(data)
-    },
+    // yyy(data) {
+    //   console.log('yyy')
+    //   console.log(data)
+    // },
     showToast1() {
       this.showToast('top')
     },

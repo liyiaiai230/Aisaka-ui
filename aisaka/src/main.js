@@ -48,7 +48,7 @@ Vue.component('a-button', Button)
 Vue.use(pligin)
 
 
-Vue.component('g-button-group', ButtonGroup)
+Vue.component('a-button-group', ButtonGroup)
 new Vue({
     render: h => h(App),
 

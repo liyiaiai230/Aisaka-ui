@@ -1,5 +1,5 @@
 <template>
-  <div class="g-button-group">
+  <div class="a-button-group">
     <slot>
     </slot>
   </div>
@@ -11,19 +11,20 @@ export default {
     for (let node of this.$el.children) {
       let name = node.nodeName.toLowerCase()
       if (name !== 'button') {
-        console.warn(`g-button-group 的子元素应该全是 g-button 但是你写的是 ${node.nodeName}`)
+        console.warn(`a-button-group 的子元素应该全是 a-button 但是你写的是 ${node.nodeName}`)
       }
     }
   },
 }
 </script>
 <style lang="scss" scoped>
-.g-button-group {
+$border-radius: 4px;
+.a-button-group {
   display: inline-flex;
   vertical-align: middle;
 
 
-  > .g-button {
+  > .a-button {
     border-radius: 0;
     margin: auto;
 
@@ -34,13 +35,13 @@ export default {
 
 
     &:first-child {
-      border-top-left-radius: var(--border-radius);
-      border-bottom-left-radius: var(--border-radius);
+      border-top-left-radius: $border-radius;
+      border-bottom-left-radius: $border-radius;
     }
 
     &:last-child {
-      border-top-right-radius: var(--border-radius);
-      border-bottom-right-radius: var(--border-radius);
+      border-top-right-radius: $border-radius;
+      border-bottom-right-radius: $border-radius;
     }
 
     &:hover {

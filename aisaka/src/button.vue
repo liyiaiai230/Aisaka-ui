@@ -1,5 +1,5 @@
 <template>
-  <button class="g-button" :class="{[`icon-${iconPosition}`]: true}"
+  <button class="a-button" :class="{[`icon-${iconPosition}`]: true}"
           @click="$emit('click')">
     <a-icon class="icon" v-if="icon && !loading" :name="icon"></a-icon>
     <a-icon class="jiazai icon" v-if="loading" name="jiazai"></a-icon>
@@ -8,7 +8,8 @@
     </div>
   </button>
 </template>
-<script>
+<script lang="ts">
+
 import Icon from '../src/icon'
 
 export default {
@@ -50,7 +51,7 @@ $border-color-hover: #666;
   }
 }
 
-.g-button {
+.a-button {
   font-size: $font-size;
   height: $button-height;
   padding: 0 1em;
@@ -74,7 +75,7 @@ $border-color-hover: #666;
     outline: none;
   }
 
-  > .g-button-content {
+  > .a-button-content {
     order: 2;
   }
 
@@ -84,7 +85,7 @@ $border-color-hover: #666;
   }
 
   &.icon-right {
-    > .g-button-content {
+    > .a-button-content {
       order: 1;
     }
 
