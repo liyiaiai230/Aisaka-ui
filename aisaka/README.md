@@ -13,9 +13,11 @@
 1. 安装依赖
     ```
     yarn install
+    npm install
     ```
 
 2. 启动 dev server
     ```
     yarn serve
+    npm run serve
     ```
